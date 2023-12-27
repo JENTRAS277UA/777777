@@ -1,0 +1,98 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    header {
+        width: 100%;
+    }
+
+    header nav ul li a {
+        list-style: none;
+        text-decoration: none;
+        color: black;
+        display: inline-block;
+        margin: auto;
+        gap: 20px;
+    }
+    header nav {
+        max-width: 900px;
+        margin: auto;
+        justify-content: space-between;
+        display: flex;
+        gap: 50px;
+    }
+
+    header nav ul li {
+        display: inline-block;
+    margin: auto;
+        gap: 20px;
+        padding: 15px;
+    }
+
+    header nav .q {
+        display: none;
+    }
+
+
+    .papa {
+        background-image: url(./Bitmap\ \(7\)777.png);
+        background-repeat: no-repeat;
+        color: white;
+        width: 100%;
+        background-size: cover; 
+        height: 500px;
+        margin: auto;
+        padding: 55px;
+        max-width: 1200px;
+        border-radius: 15px;
+    }
+
+    .card {
+        display: inline-block;
+        background-color: white;
+        border-radius: 15px;
+
+    }
+
+    .l {
+        color: #FDD6BA;
+        font-size: 75px;
+    padding: 25px;
+    }
+
+    .qwerty {
+        background-color: black;    
+    }
+
+    .card {
+    background-image: url(./Bitmap@2x.png);
+    background-repeat: no-repeat;
+    background-size:cover ;
+
+    }
+
+    .a {
+        color: white;
+    }
+
+    .q {
+        background-color: rgb(71, 71, 71);
+    }
+
+    @media only screen and (max-width:600px){
+    
+        .list {
+            display: none;
+        }
+        header nav .q {
+            display: inline-block;
+        }
+
+
+}
+
+@media only screen and (max-width:600px) {
+    
+}
+
